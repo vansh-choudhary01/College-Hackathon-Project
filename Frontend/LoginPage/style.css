@@ -1,0 +1,180 @@
+* {
+    padding : 0;
+    margin : 0;
+    color : white;
+}
+
+body {
+    /* padding : 0 34%; */
+    /* padding-right : 66%; */
+    background-color : gray;
+    /* background-color: black; */
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    width: 100%;
+    /* width : 390px; */
+    /* height : 800px; */
+    /* background-color : ghostwhite; */
+    background-color: black;
+}
+
+.nav {
+    height : 60px;
+    background-color : rgba(255,255,255,0.2);
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    padding : 0 20px;
+    position : sticky;
+    top : 0;
+}
+
+.nav img {
+    height : 100%;
+}
+
+.nav span {
+    color : white;
+    position : absolute;
+    /* right : 100px; */
+    left : 25px;
+}
+
+main {
+    background-color: black;
+}
+footer {
+    background-color: black;
+}
+
+header {
+    height : 100px;
+    background-color : black;
+    color : white;
+    padding : 0 30px;
+    /* line-height : px; */
+    font-size : 12px;
+    /* text-justify :auto; */
+    /* text-justify : end; */
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+}
+
+.icons {
+    /* background-color : white; */
+    height : 80px;
+    display : flex;
+    padding : 0 20px;
+}
+
+.icons img {
+    width : 30px;
+}
+
+.box {
+    /* width : 50%; */
+    display : flex;
+    flex-grow : 2;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    color : black;
+    border-bottom : 4px solid #E85D5D;
+}
+
+.box i {
+   font-size : 23px;
+   margin-bottom : 7px;
+   color: #E85D5D;
+}
+
+.info {
+    padding : 30px 20px 0 20px;
+}
+
+.info div {
+    display : flex;
+    align-items : center;
+    img {
+        width : 30px;
+    }
+    font-size : 18px;
+    font-weight : 450;
+    margin-bottom : 10px;
+}
+
+.info input {
+    padding : 0 10px;
+    height : 40px;
+    width : 68%;
+    border : none;
+    border-radius : 10px;
+}
+
+#pass {
+    width : 94%;
+}
+
+.info select {
+    
+    height : 40px;
+    width : 25%;
+    border : none;
+    border-radius : 10px;
+    padding : 10px;
+}
+
+.remember {
+    padding : 20px;
+}
+
+.btn {
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    height : 170px;
+    justify-content: end;
+}
+
+.btn button {
+    width : 80%;
+    height : 40px;
+    margin : 10px 0;
+    border : none;
+    border-radius : 10px;
+    border : 1px solid black;
+    /* color : black; */
+    font-size : medium;
+    font-weight : bold;
+}
+
+footer {
+    /* height : 500px; */
+    display : flex;
+    justify-content : space-evenly;
+}
+
+.help {
+    /* width : 50%; */
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+    padding : 10px;
+    font-weight : 400;
+}
+
+.help img{
+    width : 40px;
+    padding : 10px;
+}
+
+select, input, button {
+    color : white;
+    background-color: rgb(63, 63, 63);
+}
